@@ -1,0 +1,38 @@
+{
+    "main_projects": [
+        {
+            "title": "ms2world.net",
+            "badge": "Own project",
+            "description": "A MapleStory 2 fansite for collect guides, builds and more",
+            "img": "/img/ms2world_icon.png",
+            "site_url": "https://ms2world.net",
+            "source_code_url": "https://github.com/jecsham/ms2world"
+        },
+        {
+            "title": "lenoxbot.com",
+            "badge": "Frontend",
+            "description": "The best bot for a cool discord server 😎",
+            "img": "/img/lenoxbot.png",
+            "site_url": "https://lenoxbot.com/",
+            "source_code_url": "https://github.com/LenoxBot/LenoxBot/tree/master"
+        },
+        {
+            "title": "Platzi User API",
+            "badge": "Own project",
+            "description": "Public Platzi User API",
+            "img": "/img/platzi.png",
+            "site_url": "https://platzi-api.jecsham.com/",
+            "source_code_url": "https://github.com/jecsham/none"
+        }
+    ],
+    "other_projects": [
+        {
+            "title": "osu! koko",
+            "badge": "Own project",
+            "description": "Automatic music downloader extension for osu! game",
+            "img": "/img/osukoko.png",
+            "site_url": "https://chrome.google.com/webstore/detail/osu-koko/ofcdlcjfjpjjmojphhjlkeamdeagnjjp",
+            "source_code_url": "https://github.com/jecsham/osukoko-chrome"
+        }
+    ]
+}
