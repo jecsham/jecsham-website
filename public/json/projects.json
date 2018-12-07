@@ -21,8 +21,8 @@
             "badge": "Own project",
             "description": "Public Platzi User API",
             "img": "/img/platzi.png",
-            "site_url": "https://platzi-api.jecsham.com/",
-            "source_code_url": "https://github.com/jecsham/none"
+            "site_url": "https://platzi-user-api.jecsham.com/",
+            "source_code_url": "https://github.com/jecsham/"
         }
     ],
     "other_projects": [
