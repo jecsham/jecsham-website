@@ -20,16 +20,16 @@ function myYearsOld(d, m, y) {
 
 $.getJSON("../json/projects.json", function (data) {
     $.each(data.main_projects, function (index, value) {
-        $('#cards-main-projects').append(`<div class="card j-card m-4 px-0" style="width: 18rem;"><img class="j-img-card-projects rounded-circle" src="${value.img}" alt="img"><div class="card-body"><h5 class="card-title mt-4">${value.title}</h5><span class="mb-2 badge badge-secondary">${value.badge}</span><p class="card-text">${value.description}</p></div><div class="card-footer text-center"><a href="${value.site_url}" target="_blank" class="card-link">Site</a><a href="${value.source_code_url}" target="_blank" class="card-link">Source code</a></div></div>`)
+        $('#cards-main-projects').append(`<div class="card j-card m-4 px-0" style="width: 20rem;"><img class="j-img-card-projects rounded-circle" src="${value.img}" alt="img"><div class="card-body"><h5 class="card-title mt-4">${value.title}</h5><span class="mb-2 badge badge-secondary">${value.badge}</span><p class="card-text">${value.description}</p></div><div class="card-footer text-center"><a href="${value.site_url}" target="_blank" class="card-link">Site</a><a href="${value.source_code_url}" target="_blank" class="card-link">Source code</a></div></div>`)
     })
     $.each(data.other_projects, function (index, value) {
-        $('#cards-other-projects').append(`<div class="card j-card m-4 px-0" style="width: 18rem;"><img class="j-img-card-projects rounded-circle" src="${value.img}" alt="img"><div class="card-body"><h5 class="card-title mt-4">${value.title}</h5><span class="mb-2 badge badge-secondary">${value.badge}</span><p class="card-text">${value.description}</p></div><div class="card-footer text-center"><a href="${value.site_url}" target="_blank" class="card-link">Site</a><a href="${value.source_code_url}" target="_blank" class="card-link">Source code</a></div></div>`)
+        $('#cards-other-projects').append(`<div class="card j-card m-4 px-0" style="width: 20rem;"><img class="j-img-card-projects rounded-circle" src="${value.img}" alt="img"><div class="card-body"><h5 class="card-title mt-4">${value.title}</h5><span class="mb-2 badge badge-secondary">${value.badge}</span><p class="card-text">${value.description}</p></div><div class="card-footer text-center"><a href="${value.site_url}" target="_blank" class="card-link">Site</a><a href="${value.source_code_url}" target="_blank" class="card-link">Source code</a></div></div>`)
     })
 });
 $.getJSON("https://platzi-user-api.jecsham.com/api/v1/getUserSummary/@jecsham", function (data) {
     $.each(data.userData.courses, function (index, value) {
         $('#cards-platzi-courses').append(`<a href="https://platzi.com/${value.diploma_link}" target="_blank" class="j-nounderline text-dark">
-        <div class="card m-3" style="width: 25rem;">
+        <div class="card m-3" style="width: 20rem;">
             <div class="card-body">
                 <table style="float:center">
                     <tr>
@@ -48,7 +48,7 @@ $.getJSON("https://platzi-user-api.jecsham.com/api/v1/getUserSummary/@jecsham", 
     })
     $.each(data.userData.careers, function (index, value) {
         $('#cards-platzi-careers').append(`<a href="https://platzi.com/${value.diploma_link}" target="_blank" class="j-nounderline text-dark">
-        <div class="card m-3" style="width: 25rem;">
+        <div class="card m-3" style="width: 20rem;">
             <div class="card-body">
                 <table style="float:center">
                     <tr>
@@ -67,7 +67,7 @@ $.getJSON("https://platzi-user-api.jecsham.com/api/v1/getUserSummary/@jecsham", 
     })
     $.each(data.userData.contributions, function (index, value) {
         $('#cards-platzi-contributions').append(`<a href="https://platzi.com/${value.detail_url}" target="_blank" class="j-nounderline text-dark">
-        <div class="card m-3" style="width: 25rem;">
+        <div class="card m-3" style="width: 20rem;">
             <div class="card-body">
                 <table style="max-width: 100%">
                     <tr>
@@ -76,6 +76,9 @@ $.getJSON("https://platzi-user-api.jecsham.com/api/v1/getUserSummary/@jecsham", 
                         </td>
                     </tr>
                     <tr>
+                        <td class="float-left">
+                            <small class="text-muted j-nounderline"><span class="mdi mdi-clock-outline"></span> <span class="times" datetime="${value.created_at}"></span></small>
+                        </td>
                         <td class="float-right">
                             <small class="text-muted j-nounderline"><span class="mdi mdi-comment"></span> ${value.n_responses} &nbsp; &nbsp;<span class="mdi mdi-thumb-up"></span> ${value.n_stars}</small>
                         </td>
@@ -84,5 +87,8 @@ $.getJSON("https://platzi-user-api.jecsham.com/api/v1/getUserSummary/@jecsham", 
             </div>
         </div>
     </a>`)
+        let timeagoInstance = timeago();
+        let nodes = $('.times');
+        timeagoInstance.render(nodes);
     })
 })
