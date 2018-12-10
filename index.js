@@ -1,9 +1,10 @@
 const express = require("express")
+const favicon = require('serve-favicon')
+const path = require('path')
 const app = express()
-const emojiFavicon = require('emoji-favicon');
 require('dotenv').config()
 
-app.use(emojiFavicon('sunglasses'));
+app.use(favicon(path.join(__dirname, 'public', 'img/favicon.ico')))
 app.enable("trust proxy")
 app.use(express.static('public'))
 
