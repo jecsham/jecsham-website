@@ -33,6 +33,14 @@
             "img": "/img/osukoko.png",
             "site_url": "https://chrome.google.com/webstore/detail/osu-koko/ofcdlcjfjpjjmojphhjlkeamdeagnjjp",
             "source_code_url": "https://github.com/jecsham/osukoko-chrome"
+        },
+        {
+            "title": "Platzinger",
+            "badge": "Sandbox",
+            "description": "Example of a realtime messaging SPA in Angular 7 and Firebase",
+            "img": "/img/platzinger.png",
+            "site_url": "https://angular-app.jecsham.com",
+            "source_code_url": "https://github.com/jecsham/platzinger-angular"
         }
     ]
 }
