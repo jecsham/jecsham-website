@@ -23,9 +23,7 @@
             "img": "/img/platzi.png",
             "site_url": "https://platzi-user-api.jecsham.com/",
             "source_code_url": "https://github.com/jecsham/"
-        }
-    ],
-    "other_projects": [
+        },
         {
             "title": "osu! koko",
             "badge": "Own project",
@@ -33,7 +31,9 @@
             "img": "/img/osukoko.png",
             "site_url": "https://chrome.google.com/webstore/detail/osu-koko/ofcdlcjfjpjjmojphhjlkeamdeagnjjp",
             "source_code_url": "https://github.com/jecsham/osukoko-chrome"
-        },
+        }
+    ],
+    "other_projects": [
         {
             "title": "Platzinger",
             "badge": "Sandbox",
