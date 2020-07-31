@@ -29,7 +29,7 @@ class OtherProjects extends Component<IProps, IState> {
                 <Col>
                     <div className="mb-3">
                         <h3 className="mb-0">Other projects  ⬎</h3>
-                        <small className="text-muted font-weight-light">Sandbox </small>
+                        <small className="text-muted font-weight-light">Contributions, old projects and more</small>
                         <div className="d-flex justify-content-center flex-wrap mt-3">
                             {
                                 this.state.projects.map((item: any, i: number) => (

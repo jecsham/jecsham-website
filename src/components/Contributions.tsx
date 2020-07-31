@@ -31,8 +31,8 @@ class Contributions extends Component<IProps, IState> {
             <Row>
                 <Col>
                     <div className="mb-3">
-                        <h3 className="mb-0">Platzi courses ⬎</h3>
-                        <small className="text-muted font-weight-light">Approved courses</small>
+                        <h3 className="mb-0">Contributions ⬎</h3>
+                        <small className="text-muted font-weight-light">Tutorials</small>
                         <div className="d-flex justify-content-center flex-wrap mt-3" id="cards-platzi-courses">
                             {
                                 this.state.contributions.map((item: any, i: number) => (
