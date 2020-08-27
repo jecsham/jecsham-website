@@ -1,117 +1,57 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130625337-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130625337-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-        gtag('config', 'UA-130625337-1');
-    </script>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    gtag('config', 'UA-130625337-1');
+  </script>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <link rel="stylesheet" href="%PUBLIC_URL%/css/jecsham.css">
+  <link rel="stylesheet" href="%PUBLIC_URL%/css/materialdesignicons.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Jecsham Castillo - Fullstack Developer" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/img/logo192.png" />
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC:300,400,700" rel="stylesheet">
+  <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
 
-    <!-- Bootstrap Grid CSS -->
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <!-- Jecsham CSS -->
-    <link rel="stylesheet" href="/css/jecsham.css">
-    <!-- Material Desing Icons CSS -->
-    <link href="/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
-    <!-- Noto Sans Font-->
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC:300,400,700" rel="stylesheet">
-
-    <script src="/js/timeago/dist/timeago.min.js"></script>
-
-
-    <title>Jecsham Castillo</title>
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+  <title>Jecsham Castillo</title>
 </head>
 
-<body class="j-bg">
-    <main id="hero">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 d-flex justify-content-center">
-                    <div class="text-center my-3">
-                        <h3 class="font-weight-light my-3">Jecsham Castillo</h3>
-                        <figure class="d-flex justify-content-center mt-1">
-                            <div class="rounded-circle j-img-card"></div>
-                        </figure>
-                        <h6 class="card-subtitle mb-4 text-muted font-weight-light">Fullstack Developer</h6>
-                        <a href="https://platzi.com/@jecsham/" target="_blank" class="card-link"><i class="mdi mdi-platzi"></i>
-                            Platzi</a>
-                        <a href="https://twitter.com/jecsham" class="card-link" target="_blank"><i class="mdi mdi-twitter"></i>
-                            Twitter</a>
-                        <a href="https://github.com/jecsham" class="card-link" target="_blank"><i class="mdi mdi-github-box"></i>
-                            Github</a>
-                        <a href="https://www.linkedin.com/in/jecsham-castillo-07599aa7/" class="card-link" target="_blank"><i
-                                class="mdi mdi-linkedin"></i> LinkedIn</a>
-                        <p class="card-text font-weight-light">
-                            Hi, I'm Jecsham, I'm <span id="yearsOld"></span> years old and I consider myself a
-                            Fullstack Developer. <br>
-                            I'm a lover of music, technology, minimalism and simplicity.<br>
-                        </p>
-                    </div>
-                </div>
-                <section id="projects" class="col-12">
-                    <div class="mb-3">
-                        <h3 class="mb-0">Projects ⬎</h3>
-                        <small class="text-muted font-weight-light">Current projects</small>
-                        <div class="d-flex justify-content-center flex-wrap mt-3" id="cards-main-projects">
-                        </div>
-                    </div>
-                </section>
-                <section id="others" class="col-12">
-                    <div class="mb-3">
-                        <h3 class="mb-0">Other projects ⬎</h3>
-                        <small class="text-muted font-weight-light">Sandbox </small>
-                        <div class="d-flex justify-content-center flex-wrap mt-3" id="cards-other-projects">
-                        </div>
-                    </div>
-                </section>
-                <section id="platzi-courses" class="col-12">
-                    <div class="mb-3">
-                        <h3 class="mb-0">Platzi courses ⬎</h3>
-                        <small class="text-muted font-weight-light">Approved courses</small>
-                        <div class="d-flex justify-content-center flex-wrap mt-3" id="cards-platzi-courses">
-                        </div>
-                    </div>
-                </section>
-                <section id="platzi-careers" class="col-12">
-                    <div class="mb-3">
-                        <h3 class="mb-0">Platzi careers ⬎</h3>
-                        <small class="text-muted font-weight-light">Approved careers</small>
-                        <div class="d-flex justify-content-center flex-wrap mt-3" id="cards-platzi-careers">
-                        </div>
-                    </div>
-                </section>
-                <section id="platzi-contributions" class="col-12">
-                    <div class="mb-3">
-                        <h3 class="mb-0">Contributions ⬎</h3>
-                        <small class="text-muted font-weight-light">Cool stuff</small>
-                        <div class="d-flex justify-content-center flex-wrap mt-3" id="cards-platzi-contributions">
-                        </div>
-                    </div>
-                </section>
-                <section id="footer" class="col-12">
-                    <div class="d-flex justify-content-center align-content-end">
-                        <small class="font-weight-light my-5">© 2018 Jecsham Castillo, all rights reserved</small>
-                    </div>
-                </section>
-            </div>
-        </div>
-    </main>
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Global JavaScript -->
-    <script src="js/global.js"></script>
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
 </body>
 
 </html>

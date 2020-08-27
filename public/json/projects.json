@@ -1,6 +1,56 @@
 {
     "main_projects": [
         {
+            "title": "Platzi User API",
+            "badge": "Own project",
+            "description": "Public Platzi User API",
+            "img": "/img/platzi.png",
+            "site_url": "https://platzi-user-api.jecsham.com/",
+            "source_code_url": "https://github.com/jecsham/platzi-user-api"
+        },
+        {
+            "title": "My System Information",
+            "badge": "Own project",
+            "description": "Program that shows the specifications of your computer",
+            "img": "/img/msi.png",
+            "site_url": "https://github.com/jecsham/my-system-information/releases/",
+            "source_code_url": "https://github.com/jecsham/my-system-information"
+        },
+        {
+            "title": "osu! koko",
+            "badge": "Own project",
+            "description": "Automatic music downloader extension for osu! game",
+            "img": "/img/osukoko.png",
+            "site_url": "https://chrome.google.com/webstore/detail/osu-koko/ofcdlcjfjpjjmojphhjlkeamdeagnjjp",
+            "source_code_url": "https://github.com/jecsham/osukoko-chrome"
+        },
+        {
+            "title": "Décimo Panamá",
+            "badge": "Own project",
+            "description": "Pequeña herramienta para calcular el décimo en Panamá",
+            "img": "/img/decimo.png",
+            "site_url": "https://decimo.jecsham.com/",
+            "source_code_url": "https://github.com/jecsham/decimo-panama"
+        },
+        {
+            "title": "hexyjs",
+            "badge": "Own project",
+            "description": "A simple Javascript library with some hexadecimal utilities",
+            "img": "/img/npm.png",
+            "site_url": "https://www.npmjs.com/package/hexyjs",
+            "source_code_url": "https://github.com/jecsham/hexyjs"
+        }
+    ],
+    "other_projects": [
+        {
+            "title": "Platzinger",
+            "badge": "Sandbox",
+            "description": "Example of a realtime messaging SPA in Angular 7 and Firebase",
+            "img": "/img/platzinger.png",
+            "site_url": "https://angular-app.jecsham.com",
+            "source_code_url": "https://github.com/jecsham/platzinger-angular"
+        },
+        {
             "title": "ms2world.net",
             "badge": "Own project",
             "description": "A MapleStory 2 fansite for collect guides, builds and more",
@@ -15,32 +65,6 @@
             "img": "/img/lenoxbot.png",
             "site_url": "https://lenoxbot.com/",
             "source_code_url": "https://github.com/LenoxBot/LenoxBot/tree/master"
-        },
-        {
-            "title": "Platzi User API",
-            "badge": "Own project",
-            "description": "Public Platzi User API",
-            "img": "/img/platzi.png",
-            "site_url": "https://platzi-user-api.jecsham.com/",
-            "source_code_url": "https://github.com/jecsham/"
-        },
-        {
-            "title": "osu! koko",
-            "badge": "Own project",
-            "description": "Automatic music downloader extension for osu! game",
-            "img": "/img/osukoko.png",
-            "site_url": "https://chrome.google.com/webstore/detail/osu-koko/ofcdlcjfjpjjmojphhjlkeamdeagnjjp",
-            "source_code_url": "https://github.com/jecsham/osukoko-chrome"
-        }
-    ],
-    "other_projects": [
-        {
-            "title": "Platzinger",
-            "badge": "Sandbox",
-            "description": "Example of a realtime messaging SPA in Angular 7 and Firebase",
-            "img": "/img/platzinger.png",
-            "site_url": "https://angular-app.jecsham.com",
-            "source_code_url": "https://github.com/jecsham/platzinger-angular"
         }
     ]
 }
