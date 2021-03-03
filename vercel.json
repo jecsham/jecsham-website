@@ -1,5 +1,5 @@
 {
     "redirects": [
-      { "source": "/donate", "destination": "https://www.paypal.com/paypalme/jecsham" }
+      { "source": "/donate", "destination": "https://www.paypal.com/donate?hosted_button_id=CSLCZ8PX29WZN" }
     ]
   }
