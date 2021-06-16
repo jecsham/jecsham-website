@@ -28,7 +28,7 @@ class OtherProjects extends Component<IProps, IState> {
           <div className="mb-3">
             <h3 className="mb-0">Other projects ⬎</h3>
             <small className="text-muted font-weight-light">
-              Contributions, old projects and more
+              Utilities, old projects and more
             </small>
             <div className="d-flex justify-content-center flex-wrap mt-3">
               {this.state.projects.map((item: any, i: number) => (
@@ -37,12 +37,15 @@ class OtherProjects extends Component<IProps, IState> {
                     className="j-img-card-projects rounded-circle"
                     src={item.img}
                     alt="img"
+                    draggable={false}
                   />
                   <div className="card-body">
                     <h5 className="card-title mt-4">{item.title}</h5>
-                    <span className="mb-2 badge badge-secondary">
-                      {item.badge}
-                    </span>
+                    {item.badges.map((itemBadge: string) => (
+                      <span className="mb-2 mr-1 badge badge-secondary">
+                        {itemBadge}
+                      </span>
+                    ))}
                     <p className="card-text">{item.description}</p>
                   </div>
                   <div className="card-footer text-center">
@@ -60,7 +63,7 @@ class OtherProjects extends Component<IProps, IState> {
                       rel="noopener noreferrer"
                       className="card-link"
                     >
-                      Source code
+                      {item.source_code_url ? "Source code" : ""}
                     </a>
                   </div>
                 </div>

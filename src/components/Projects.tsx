@@ -37,12 +37,15 @@ class Projects extends Component<IProps, IState> {
                     className="j-img-card-projects rounded-circle"
                     src={item.img}
                     alt="img"
+                    draggable={false}
                   />
                   <div className="card-body">
                     <h5 className="card-title mt-4">{item.title}</h5>
-                    <span className="mb-2 badge badge-secondary">
-                      {item.badge}
-                    </span>
+                    {item.badges.map((itemBadge: string) => (
+                      <span className="mb-2 mr-1 badge badge-secondary">
+                        {itemBadge}
+                      </span>
+                    ))}
                     <p className="card-text">{item.description}</p>
                   </div>
                   <div className="card-footer text-center">
@@ -60,7 +63,7 @@ class Projects extends Component<IProps, IState> {
                       rel="noopener noreferrer"
                       className="card-link"
                     >
-                      Source code
+                      {item.source_code_url ? "Source code" : ""}
                     </a>
                   </div>
                 </div>

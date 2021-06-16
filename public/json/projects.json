@@ -1,70 +1,76 @@
 {
-    "main_projects": [
-        {
-            "title": "Platzi User API",
-            "badge": "Own project",
-            "description": "Public Platzi User API",
-            "img": "/img/platzi.png",
-            "site_url": "https://platzi-user-api.jecsham.com/",
-            "source_code_url": "https://github.com/jecsham/platzi-user-api"
-        },
-        {
-            "title": "My System Information",
-            "badge": "Own project",
-            "description": "Program that shows the specifications of your computer",
-            "img": "/img/msi.png",
-            "site_url": "https://github.com/jecsham/my-system-information/releases/",
-            "source_code_url": "https://github.com/jecsham/my-system-information"
-        },
-        {
-            "title": "osu! koko",
-            "badge": "Own project",
-            "description": "Automatic music downloader extension for osu! game",
-            "img": "/img/osukoko.png",
-            "site_url": "https://chrome.google.com/webstore/detail/osu-koko/ofcdlcjfjpjjmojphhjlkeamdeagnjjp",
-            "source_code_url": "https://github.com/jecsham/osukoko-chrome"
-        },
-        {
-            "title": "Décimo Panamá",
-            "badge": "Own project",
-            "description": "Pequeña herramienta para calcular el décimo en Panamá",
-            "img": "/img/decimo.png",
-            "site_url": "https://decimo.jecsham.com/",
-            "source_code_url": "https://github.com/jecsham/decimo-panama"
-        },
-        {
-            "title": "hexyjs",
-            "badge": "Own project",
-            "description": "A simple Javascript library with some hexadecimal utilities",
-            "img": "/img/npm.png",
-            "site_url": "https://www.npmjs.com/package/hexyjs",
-            "source_code_url": "https://github.com/jecsham/hexyjs"
-        }
-    ],
-    "other_projects": [
-        {
-            "title": "Platzinger",
-            "badge": "Sandbox",
-            "description": "Example of a realtime messaging SPA in Angular 7 and Firebase",
-            "img": "/img/platzinger.png",
-            "site_url": "https://angular-app.jecsham.com",
-            "source_code_url": "https://github.com/jecsham/platzinger-angular"
-        },
-        {
-            "title": "ms2world.net",
-            "badge": "Own project",
-            "description": "A MapleStory 2 fansite for collect guides, builds and more",
-            "img": "/img/ms2world_icon.png",
-            "site_url": "https://ms2world.net",
-            "source_code_url": "https://github.com/jecsham/ms2world"
-        },
-        {
-            "title": "lenoxbot.com",
-            "badge": "Frontend",
-            "description": "The best bot for a cool discord server 😎",
-            "img": "/img/lenoxbot.png",
-            "site_url": "https://lenoxbot.com/",
-            "source_code_url": "https://github.com/LenoxBot/LenoxBot/tree/master"
-        }
-    ]
+  "main_projects": [
+    {
+      "title": "Sensor Stream",
+      "badges": ["Own project", "C#", ".NET 2.5"],
+      "description": "Sensor Stream allows you to stream sensor data of pc components like gpu, cpu, ram, storage, etc, through UDP datagrams or WebSockets.",
+      "img": "/img/ss.svg",
+      "site_url": "https://sensorstream.jecsham.com/",
+      "source_code_url": "https://github.com/jecsham/SensorStream"
+    },
+    {
+      "title": "Epic Monitor (Android App)",
+      "badges": ["Own project", "Ionic", "ReactJS"],
+      "description": "Visualize real-time graphs such as temperatures and loads of your PC components",
+      "img": "/img/em.png",
+      "site_url": "https://play.google.com/store/apps/details?id=com.jecsham.epicpcmonitor"
+    },
+    {
+      "title": "Platzi User API",
+      "badges": ["Own project", "JS/TS"],
+      "description": "Public Platzi User API",
+      "img": "/img/platzi.png",
+      "site_url": "https://platzi-user-api.jecsham.com/",
+      "source_code_url": "https://github.com/jecsham/platzi-user-api"
+    },
+    {
+      "title": "My System Information",
+      "badges": ["Own project", "ElectronJS", "ReactJS"],
+      "description": "Program that shows the specifications of your computer",
+      "img": "/img/msi.png",
+      "site_url": "https://github.com/jecsham/my-system-information/releases/",
+      "source_code_url": "https://github.com/jecsham/my-system-information"
+    },
+    {
+      "title": "osu! koko",
+      "badges": ["Own project", "JS"],
+      "description": "Automatic music downloader extension for osu! game",
+      "img": "/img/osukoko.png",
+      "site_url": "https://chrome.google.com/webstore/detail/osu-koko/ofcdlcjfjpjjmojphhjlkeamdeagnjjp",
+      "source_code_url": "https://github.com/jecsham/osukoko-chrome"
+    },
+    {
+      "title": "Décimo Panamá",
+      "badges": ["Own project", "ReactJS"],
+      "description": "Pequeña herramienta para calcular el décimo en Panamá",
+      "img": "/img/decimo.png",
+      "site_url": "https://decimo.jecsham.com/",
+      "source_code_url": "https://github.com/jecsham/decimo-panama"
+    }
+  ],
+  "other_projects": [
+    {
+      "title": "hexyjs",
+      "badges": ["Own project", "Library", "JS"],
+      "description": "A simple Javascript library with some hexadecimal utilities",
+      "img": "/img/npm.png",
+      "site_url": "https://www.npmjs.com/package/hexyjs",
+      "source_code_url": "https://github.com/jecsham/hexyjs"
+    },
+    {
+      "title": "shothash2",
+      "badges": ["Library", "JS/TS"],
+      "description": "A mini js lib to generate short, alpha-number, undecryptable and unique hash id from a long string (utf8 format)",
+      "img": "/img/npm.png",
+      "site_url": "https://www.npmjs.com/package/shorthash2",
+      "source_code_url": "https://github.com/jecsham/shorthash2"
+    },
+    {
+      "title": "Platzinger",
+      "badges": ["Sandbox", "Angular"],
+      "description": "Example of a realtime messaging SPA in Angular 7 and Firebase",
+      "img": "/img/platzinger.png",
+      "site_url": "https://angular-app.jecsham.com"
+    }
+  ]
 }
