@@ -25,20 +25,20 @@ class App extends Component<MyProps, MyState> {
   render() {
     return (
       <Router>
-            <Container>
-        <Switch>
-          <Route path="/em-privacy-policy">
-            <EMPrivacyPolicy />
-          </Route>
-          <Route path="/">
+        <Container>
+          <Switch>
+            <Route path="/em-privacy-policy">
+              <EMPrivacyPolicy />
+            </Route>
+            <Route path="/">
               <Hero />
               <Projects />
               <OtherProjects />
               <Courses />
               <Contributions />
-          </Route>
-        </Switch>
-            </Container>
+            </Route>
+          </Switch>
+        </Container>
       </Router>
     );
   }
