@@ -8,6 +8,7 @@ import Courses from "./components/Courses";
 import Contributions from "./components/Contributions";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import EMPrivacyPolicy from "./components/EMPrivacyPolicy";
+import IPrivacyPolicy from "./components/IPrivacyPolicy";
 
 interface MyProps {
   value?: any;
@@ -29,6 +30,9 @@ class App extends Component<MyProps, MyState> {
           <Switch>
             <Route path="/em-privacy-policy">
               <EMPrivacyPolicy />
+            </Route>
+            <Route path="/i-privacy-policy">
+              <IPrivacyPolicy />
             </Route>
             <Route path="/">
               <Hero />
