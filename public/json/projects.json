@@ -3,10 +3,18 @@
     {
       "title": "Sensor Stream",
       "badges": ["Own project", "C#", ".NET 2.5"],
-      "description": "Sensor Stream allows you to stream sensor data of pc components like gpu, cpu, ram, storage, etc, through UDP datagrams or WebSockets.",
+      "description": "Sensor Stream allows you to stream sensor data of pc components like gpu, cpu, ram, storage, etc, through UDP datagrams or WebSockets",
       "img": "/img/ss.svg",
       "site_url": "https://sensorstream.jecsham.com/",
       "source_code_url": "https://github.com/jecsham/SensorStream"
+    },
+    {
+      "title": "My System Information",
+      "badges": ["Own project", "ElectronJS", "ReactJS"],
+      "description": "My System Information (msi) allows you to visualize the main components of your Windows computer",
+      "img": "/img/msi.png",
+      "site_url": "https://msi.jecsham.com",
+      "source_code_url": "https://github.com/jecsham/my-system-information"
     },
     {
       "title": "Epic Monitor (Android App)",
@@ -16,28 +24,20 @@
       "site_url": "https://play.google.com/store/apps/details?id=com.jecsham.epicpcmonitor"
     },
     {
-      "title": "Platzi User API",
-      "badges": ["Own project", "JS/TS"],
-      "description": "Public Platzi User API",
-      "img": "/img/platzi.png",
-      "site_url": "https://platzi-user-api.jecsham.com/",
-      "source_code_url": "https://github.com/jecsham/platzi-user-api"
-    },
-    {
-      "title": "My System Information",
-      "badges": ["Own project", "ElectronJS", "ReactJS"],
-      "description": "Program that shows the specifications of your computer",
-      "img": "/img/msi.png",
-      "site_url": "https://github.com/jecsham/my-system-information/releases/",
-      "source_code_url": "https://github.com/jecsham/my-system-information"
-    },
-    {
       "title": "osu! koko",
       "badges": ["Own project", "JS"],
       "description": "Automatic music downloader extension for osu! game",
       "img": "/img/osukoko.png",
       "site_url": "https://chrome.google.com/webstore/detail/osu-koko/ofcdlcjfjpjjmojphhjlkeamdeagnjjp",
       "source_code_url": "https://github.com/jecsham/osukoko-chrome"
+    },
+    {
+      "title": "Platzi User API",
+      "badges": ["Own project", "JS/TS"],
+      "description": "Public Platzi User API",
+      "img": "/img/platzi.png",
+      "site_url": "https://platzi-user-api.jecsham.com/",
+      "source_code_url": "https://github.com/jecsham/platzi-user-api"
     },
     {
       "title": "Décimo Panamá",
