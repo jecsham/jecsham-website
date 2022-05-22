@@ -10,7 +10,7 @@
     },
     {
       "title": "My System Information",
-      "badges": ["Own project", "ElectronJS", "ReactJS"],
+      "badges": ["Own project", "Rust", "Tauri", "ReactJS"],
       "description": "My System Information (msi) allows you to visualize the main components of your Windows computer",
       "img": "/img/msi.png",
       "site_url": "https://msi.jecsham.com",
