@@ -1,3 +1,4 @@
+import Image from "next/image";
 interface Props {
   title: string;
   description: string;
@@ -17,11 +18,28 @@ const Project = ({
 }: Props) => {
   return (
     <div className="project-container">
-      <img draggable={false} className="project-image" src={imageUrl} alt="image" />
+      <div className="project-image">
+        <Image
+          draggable={false}
+          className="project-image"
+          width="80px"
+          height="80px"
+          layout="fixed"
+          src={imageUrl}
+          alt="image"
+          placeholder="blur"
+          blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mMsjgMAAUoA0y8aVxAAAAAASUVORK5CYII="
+        />
+      </div>
       <div className="project-description-container">
         <div>
           <strong>
-            <a className="project-name" href={projectUrl}>
+            <a
+              className="project-name"
+              target="_blank"
+              rel="noopener noreferrer"
+              href={projectUrl}
+            >
               {title}
             </a>
           </strong>{" "}
@@ -37,7 +55,9 @@ const Project = ({
         </div>
         <p className="project-description">{description}</p>
         {badges.map((tag, i) => (
-          <div key={i} className="badge">{tag}</div>
+          <div key={i} className="badge">
+            {tag}
+          </div>
         ))}
       </div>
     </div>
