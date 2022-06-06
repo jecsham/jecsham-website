@@ -1,0 +1,77 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Inconsolata", monospace;
+  font-size: 1.2em
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.theme-mode-btn {
+  cursor: pointer;
+  border: 0;
+  border-radius: 50%;
+  padding: 10px 10px;
+  /* width: 40px; */
+  background-color: rgba(0, 0, 0, 0.1);
+  font-size: 0.8em;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 0 20px;
+  /* border: 1px solid red; */
+}
+
+.section-content {
+  margin-left: 30px;
+}
+
+.project-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.porject-description-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-description {
+  margin: 0;
+}
+
+.project-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.badge {
+  background-color: rgba(0, 0, 0, 0.09);
+  border-radius: 5px;
+  padding: 1px 5px;
+  display: inline-block;
+  font-size: 0.6em;
+  margin-right: 5px;
+}
+
+.keep {
+  white-space: nowrap;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
