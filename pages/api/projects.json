@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Sensor Stream",
+    "badges": ["C#", ".NET 2.5"],
+    "description": "Sensor Stream allows you to stream sensor data of pc components like gpu, cpu, ram, storage, etc, through UDP datagrams or WebSockets",
+    "imageUrl": "/img/ss.svg",
+    "projectUrl": "https://sensorstream.jecsham.com/",
+    "sourceCodeUrl": "https://github.com/jecsham/SensorStream"
+  },
+  {
+    "title": "My System Information",
+    "badges": ["Rust", "Tauri", "ReactJS"],
+    "description": "My System Information (msi) allows you to visualize the main components of your Windows computer",
+    "imageUrl": "/img/msi.png",
+    "projectUrl": "https://msi.jecsham.com",
+    "sourceCodeUrl": "https://github.com/jecsham/my-system-information"
+  },
+  {
+    "title": "Epic Monitor (Android App)",
+    "badges": ["Ionic", "ReactJS"],
+    "description": "Visualize real-time graphs such as temperatures and loads of your PC components",
+    "imageUrl": "/img/em.png",
+    "projectUrl": "https://play.google.com/store/apps/details?id=com.jecsham.epicpcmonitor"
+  },
+  {
+    "title": "osu! koko",
+    "badges": ["JavaScript"],
+    "description": "Automatic music downloader extension for osu! game",
+    "imageUrl": "/img/osukoko.png",
+    "projectUrl": "https://chrome.google.com/webstore/detail/osu-koko/ofcdlcjfjpjjmojphhjlkeamdeagnjjp",
+    "sourceCodeUrl": "https://github.com/jecsham/osukoko-chrome"
+  },
+  {
+    "title": "Platzi User API",
+    "badges": ["JavaScript/TypeScript"],
+    "description": "Public Platzi User API",
+    "imageUrl": "/img/platzi.png",
+    "projectUrl": "https://platzi-user-api.jecsham.com/",
+    "sourceCodeUrl": "https://github.com/jecsham/platzi-user-api"
+  },
+  {
+    "title": "Décimo Panamá",
+    "badges": ["ReactJS"],
+    "description": "Pequeña herramienta para calcular el décimo en Panamá",
+    "imageUrl": "/img/decimo.png",
+    "projectUrl": "https://decimo.jecsham.com/",
+    "sourceCodeUrl": "https://github.com/jecsham/decimo-panama"
+  },
+  {
+    "title": "hexyjs",
+    "badges": ["JavaScript"],
+    "description": "A simple Javascript library with some hexadecimal utilities",
+    "imageUrl": "/img/npm.png",
+    "projectUrl": "https://www.npmjs.com/package/hexyjs",
+    "sourceCodeUrl": "https://github.com/jecsham/hexyjs"
+  },
+  {
+    "title": "shothash2",
+    "badges": ["JavaScript/TypeScript"],
+    "description": "A mini js lib to generate short, alpha-number, undecryptable and unique hash id from a long string (utf8 format)",
+    "imageUrl": "/img/npm.png",
+    "projectUrl": "https://www.npmjs.com/package/shorthash2",
+    "sourceCodeUrl": "https://github.com/jecsham/shorthash2"
+  },
+  {
+    "title": "Platzinger",
+    "badges": ["AngularJS"],
+    "description": "[Sandbox] Example of a realtime messaging SPA in Angular 7 and Firebase",
+    "imageUrl": "/img/platzinger.png",
+    "projectUrl": "https://angular-app.jecsham.com"
+  }
+]
