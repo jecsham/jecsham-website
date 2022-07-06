@@ -13,7 +13,7 @@
     "description": "My System Information (msi) allows you to visualize the main components of your Windows computer",
     "imageUrl": "/img/msi.png",
     "projectUrl": "https://msi.jecsham.com",
-    "sourceCodeUrl": "https://github.com/jecsham/my-system-information"
+    "sourceCodeUrl": "https://github.com/jecsham/msi"
   },
   {
     "title": "Epic Monitor (Android App)",
