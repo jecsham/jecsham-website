@@ -10,6 +10,7 @@ const nextConfig = {
       {
         source: "/donate",
         destination: "https://www.paypal.com/donate?hosted_button_id=CSLCZ8PX29WZN",
+        permanent: true,
       },
     ];
   },
