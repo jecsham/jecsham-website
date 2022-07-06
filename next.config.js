@@ -5,11 +5,12 @@ const nextConfig = {
     locales: ["en"],
     defaultLocale: "en",
   },
-  async rewrites() {
+  async redirects() {
     return [
       {
         source: "/donate",
         destination: "https://www.paypal.com/donate?hosted_button_id=CSLCZ8PX29WZN",
+        permanent: true,
       },
     ];
   },
