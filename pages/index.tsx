@@ -24,14 +24,31 @@ const Home: NextPage = () => {
     </a>
   );
 
+  const openLink = (link: string) => {
+    window.open(link, "_blank");
+  };
+
   return (
     <div>
       <main className="container">
         <div className="header">
           <h1>Jecsham Castillo</h1>
-          <button onClick={toggleDarkMode} className="theme-mode-btn">
-            <span className="darkmode-ignore">🌓</span>
-          </button>
+          <div id="header-btns">
+            <button
+              onClick={() => openLink("/donate")}
+              className="round-btn"
+              title="Donate"
+            >
+              <span className="darkmode-ignore">💚</span>
+            </button>
+            <button
+              onClick={toggleDarkMode}
+              className="round-btn"
+              title="Change theme"
+            >
+              <span className="darkmode-ignore">🌓</span>
+            </button>
+          </div>
         </div>
         <div className="section-content">
           <p className="mt-0">
