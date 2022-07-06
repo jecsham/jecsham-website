@@ -5,7 +5,7 @@ const nextConfig = {
     locales: ["en"],
     defaultLocale: "en",
   },
-  async rewrites() {
+  async redirects() {
     return [
       {
         source: "/donate",
